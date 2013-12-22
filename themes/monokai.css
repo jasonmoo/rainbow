@@ -14,12 +14,17 @@ pre {
     margin: 0px;
     padding: 10px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
+@font-face {
+  font-family: 'Bitstream Vera Sans Mono';
+  src: url('../../../fonts/VeraMono.ttf');
+}
+
 pre, code {
-    font-family: 'Monaco', courier, monospace;
+    font-family: "Bitstream Vera Sans Mono", "Lucida Grande", monospace;
 }
 
 pre .comment {
