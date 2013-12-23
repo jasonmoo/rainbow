@@ -44,7 +44,7 @@ pre .string, pre .comment.docstring {
 }
 
 pre .support.tag {
-    color: #fff;
+    color: #11A810;
 }
 
 pre .keyword {
@@ -74,7 +74,7 @@ pre .support, *[data-language="c"] .function.call {
 }
 
 *[data-language="html"] .support.operator {
-    color: #fff;
+    color: #11A810;
 }
 
 pre .css-property, pre .storage.function {
