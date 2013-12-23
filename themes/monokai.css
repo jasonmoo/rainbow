@@ -13,8 +13,8 @@ pre {
     word-wrap: break-word;
     margin: 0px;
     padding: 10px;
-    color: #fff;
     font-size: 16px;
+    color: #ddd;
     margin-bottom: 20px;
 }
 
@@ -28,19 +28,19 @@ pre, code {
 }
 
 pre .comment {
-    color: #75715E;
+    color: #616161;
 }
 
 pre .constant {
-    color: #AE81FF;
+    color: #FFA31F;
 }
 
 pre .storage {
-    color: #66D9EF;
+    color: #B2D2FF;
 }
 
 pre .string, pre .comment.docstring {
-    color: #E6DB74;
+    color: #11A810;
 }
 
 pre .support.tag {
@@ -50,11 +50,11 @@ pre .support.tag {
 pre .keyword {
     /* @todo some keywords use this light blue, most use the pink */
     /*color: #66D9EF;*/
-    color: #F92672;
+    color: #B2D2FF;
 }
 
 pre .selector {
-    color: #F92672;
+    color: #000;
 }
 
 pre .inherited-class {
@@ -62,15 +62,15 @@ pre .inherited-class {
 }
 
 pre .operator, pre .support.tag-name , pre .entity.tag {
-    color: #F92672;
+    color: #C7AB70;
 }
 
 pre .entity, pre .support.attribute, pre .entity.attribute {
-    color: #A6E22E;
+    color: #C7AB70;
 }
 
 pre .support, *[data-language="c"] .function.call {
-    color: #66D9EF;
+    color: #6ac;
 }
 
 *[data-language="html"] .support.operator {
